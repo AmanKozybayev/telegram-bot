@@ -2,3 +2,4 @@
 #etot file ispol'zuetsya dlya togo chtoby git ignoril nekotorie papki ili fily kotorie ya ne hotel by dobavlyat' v github repository 
 #esli ya hochu ignorit' vse fily s rasshireniem .log ya prosto pishu *.log v file .gitignore i vua lya nikakoy file s .log ne budet tam viset'
 node_modules
+.env

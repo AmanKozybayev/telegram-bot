@@ -11,6 +11,7 @@
   "author": "Aman Kozybayev",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "telegraf": "^4.12.2"
   },
   "devDependencies": {
