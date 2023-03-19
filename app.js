@@ -2,6 +2,7 @@ const { json } = require('stream/consumers');
 const { Telegraf } = require('telegraf');
 require('dotenv').config()//vot eta shtuka daet vozmozhnost' ispol'zovat' file .env kak hranenie sensative dannyh 
 const { message } = require('telegraf/filters');
+const fs = require("node:fs/promises");
 
 //env vars mozhno izmenyat' pryam s terminala, ya zadal api bota pryam s terminala komandoi BOT_TOKEN=API node app.js
 const bot = new Telegraf(process.env.BOT_TOKEN);//environmental variables machine level variables
