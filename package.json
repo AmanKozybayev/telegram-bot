@@ -1,0 +1,19 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "Aman": "echo 'wow'"
+  },
+  "keywords": [],
+  "author": "Aman Kozybayev",
+  "license": "ISC",
+  "dependencies": {
+    "telegraf": "^4.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
